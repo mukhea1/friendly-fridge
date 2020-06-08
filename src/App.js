@@ -1,22 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar/NavBar.js';
+import Title from './Title.js';
+{/* (Use this if you use 'extends Component' for state manipulation... import { render } from '@testing-library/react'; */}
+
 
 function App() {
   return (
     <div className="App">
+      <Title className ="Title"/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Click the link to find out what you can do for the movement {/* <code>src/App.js</code> and save to reload.*/}
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://blacklivesmatter.carrd.co/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Black Lives Matter
         </a>
       </header>
     </div>

@@ -1,0 +1,12 @@
+/*  src/Title.css  */
+
+.Title {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(88, 198, 206);
+    color: #fff;
+  }
